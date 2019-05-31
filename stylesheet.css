@@ -1,0 +1,93 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5% 2% 2%;
+}
+
+content {
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  top: 325px;
+  background: white;
+  left: 0px;
+  right: 0px;
+}
+
+#pacificRimLogo {
+  order: 0;
+}
+
+#logoWrapper {
+  order: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+.stockName {
+  font-size: 20px;
+}
+
+.article {
+  margin: 3% 3% 2% 3%;
+}
+
+.divider {
+  background-color: black;
+  height: 5px;
+}
+
+li {
+  margin-top: 20px;
+}
+
+#parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exampleImage {
+  width: 100%;
+}
+
+text {
+  font-size: 35px;
+}
+
+text:nth-child(3) {
+  padding-bottom: 20px;
+}
+
+paragraphHeading {
+  font-size: 30px;
+}
+
+text, p, li, h3, .stockName, paragraphHeading , span{
+  font-family: 'Roboto', sans-serif;
+}
+
+.report {
+  background-color: #f3efef;
+}
+
+.report-wrapper {
+  padding: 2% 3% 2% 3%;
+}
+
+.imageSpacer {
+  margin-right: 1%;
+}
+
+.circleImage {
+  display: flex;
+  flex-flow: column;
+  padding: 5% 0% 0% 10%;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.flex {
+  display: flex;
+}
